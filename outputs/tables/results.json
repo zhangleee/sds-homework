@@ -1,0 +1,105 @@
+{
+  "n_listings": 500,
+  "n_reviews": 30242,
+  "n_master": 30242,
+  "descriptive": {
+    "price_mean": 282.1,
+    "price_median": 146.5,
+    "price_max": 11680,
+    "room_type_pct": {
+      "Entire home/apt": 70.4,
+      "Private room": 29.4,
+      "Shared room": 0.2
+    },
+    "neigh_top": {
+      "SIXTH WARD": 116,
+      "TENTH WARD": 57,
+      "SECOND WARD": 45,
+      "NINTH WARD": 45,
+      "THIRTEENTH WARD": 43
+    },
+    "rpm_median": 0.9,
+    "recency_median": 80.5,
+    "min_nights": {
+      "count": 499.0,
+      "mean": 6.793587174348698,
+      "std": 19.58442436398349,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 4.0,
+      "max": 365.0
+    },
+    "avail": {
+      "count": 500.0,
+      "mean": 251.638,
+      "std": 122.49450912400548,
+      "min": 0.0,
+      "25%": 155.75,
+      "50%": 313.0,
+      "75%": 355.0,
+      "max": 365.0
+    },
+    "host_top": {
+      "鈦≒remier Stay Co.鈦?": 31,
+      "Diana": 18,
+      "Erion": 16,
+      "Luxe Rentals": 15,
+      "Courtney": 15
+    },
+    "corr": {
+      "price": {
+        "price": 1.0,
+        "number_of_reviews": -0.048,
+        "reviews_per_month": -0.07,
+        "minimum_nights": -0.041,
+        "availability_365": 0.095,
+        "calculated_host_listings_count": -0.037
+      },
+      "number_of_reviews": {
+        "price": -0.048,
+        "number_of_reviews": 1.0,
+        "reviews_per_month": 0.681,
+        "minimum_nights": -0.129,
+        "availability_365": -0.114,
+        "calculated_host_listings_count": -0.1
+      },
+      "reviews_per_month": {
+        "price": -0.07,
+        "number_of_reviews": 0.681,
+        "reviews_per_month": 1.0,
+        "minimum_nights": -0.206,
+        "availability_365": -0.067,
+        "calculated_host_listings_count": -0.076
+      },
+      "minimum_nights": {
+        "price": -0.041,
+        "number_of_reviews": -0.129,
+        "reviews_per_month": -0.206,
+        "minimum_nights": 1.0,
+        "availability_365": 0.006,
+        "calculated_host_listings_count": -0.048
+      },
+      "availability_365": {
+        "price": 0.095,
+        "number_of_reviews": -0.114,
+        "reviews_per_month": -0.067,
+        "minimum_nights": 0.006,
+        "availability_365": 1.0,
+        "calculated_host_listings_count": 0.128
+      },
+      "calculated_host_listings_count": {
+        "price": -0.037,
+        "number_of_reviews": -0.1,
+        "reviews_per_month": -0.076,
+        "minimum_nights": -0.048,
+        "availability_365": 0.128,
+        "calculated_host_listings_count": 1.0
+      }
+    }
+  },
+  "forecast": {
+    "mape": 37.0,
+    "rmse": 136.7
+  }
+}
