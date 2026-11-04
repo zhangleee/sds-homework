@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>评论活跃漏斗图</title>
+<script src="../../assets/echarts.min.js"></script>
+</head>
+<body>
+
+<div id="c" style="width:100%;height:100vh;"></div>
+<script>
+var funnel = [{"name": "全部房源", "value": 500}, {"name": "有评论记录", "value": 449}, {"name": "近12月有评论", "value": 391}, {"name": "90天内活跃", "value": 280}, {"name": "月均评论≥1", "value": 243}];
+var chart = echarts.init(document.getElementById('c'));
+chart.setOption({
+  backgroundColor: '#0f1b2d',
+  title: {text: '评论活跃漏斗图', left: 'center', top: 16, textStyle: {color: '#dfe7f3', fontSize: 20}},
+  tooltip: {trigger: 'item', formatter: '{b}: {c} 套'},
+  series: [{
+    type: 'funnel', left: '18%', width: '64%', top: 80, bottom: 60,
+    min: 0, max: 500, sort: 'descending', gap: 4,
+    label: {show: true, position: 'inside', formatter: '{b}  {c}', color: '#fff', fontSize: 13},
+    data: funnel,
+    itemStyle: {borderColor: '#0f1b2d', borderWidth: 2}
+  }]
+});
+window.addEventListener('resize', function() { chart.resize(); });
+</script>
+</body>
+</html>
