@@ -69,4 +69,4 @@ python run_all.py
 
 ## 仓库地址
 
-（Gitee/GitHub 公开仓库地址，提交后补充到论文附录 B）
+https://github.com/zhangleee/sds-homework
