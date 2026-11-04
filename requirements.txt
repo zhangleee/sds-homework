@@ -1,0 +1,10 @@
+# 商业数据分析期末大作业 —— Python 依赖
+# 安装：pip install -r requirements.txt
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1
+matplotlib>=3.8
+statsmodels>=0.14
+scipy>=1.11
+# 大屏（dashboard.html / fig19 / fig20）使用 ECharts 5.5.0 本地文件，无需 npm。
+# 渲染中文字体：Microsoft YaHei（微软雅黑），Windows 自带。
